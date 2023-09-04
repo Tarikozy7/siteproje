@@ -1,0 +1,205 @@
+:root{
+    --maincolor : #669CF5;
+    --backround : #35424a;
+}
+/* NAVBAR START*/
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: var(--backround);
+    color: #fff;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: var(--maincolor) 3px solid;
+
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header ul{
+    list-style-type: none;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+   
+header #branding{
+    float: left;
+    
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, .current a{
+    color: var(--maincolor);
+    font-weight: bold;
+}
+/* NAVBAR END*/
+/* MAİN SECTİON START*/
+
+#showcase{
+    background: url(img/showcase.jpg) no-repeat 0 -400px;
+    min-height: 400px;
+    text-align: center;
+    color: #fff;
+}
+#showcase h1{
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+/*MAİN SECTİON END*/
+/*SUBSCRİBE START*/
+
+#newsletter{
+    background: var(--backround);
+    color: #fff;
+    padding: 15px;
+}
+
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin: 15px;
+
+}
+#newsletter input{
+    height: 25px;
+    width: 250px;
+    padding: 4px;
+}
+.button_1{
+    height: 39px;
+    background: var(--maincolor);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 20px;
+}
+/*SUBSCRİBE END*/
+/*USED  PROGRAMS START */
+
+#boxes{
+    margin-top: 20px;
+
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+/*USED  PROGRAMS END */
+/*FOOTER*/
+footer{
+    background: var(--maincolor);
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    text-align: center;
+}
+/*FOOTER END*/
+/*ABOUT*/
+.dark{
+    background-color: var(--backround);
+    padding: 15px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    
+    
+}
+
+article#main-col{
+    float: left;
+    width: 30%;
+}
+/*services start*/
+aside#sidebar .quote input , aside#sidebar .quotetextarea{
+    width: 90%;
+    padding: 5px;
+
+}
+.quote .textarea{
+    width: 325px;
+    height: 100px;
+}
+
+ul#services li{
+    background-color: #E6E6E6;
+    border: #ccc solid 1px;
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 5px;
+
+}
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+}
+    
+
+    
+
+
+
+
+
