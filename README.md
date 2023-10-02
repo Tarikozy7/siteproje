@@ -1,1 +1,3 @@
 # siteproje
+
+![](gif/udemig.gif)
